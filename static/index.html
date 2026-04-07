@@ -18,6 +18,10 @@
           <label>Year <input name="year" type="number" min="1990" max="2030" required /></label>
           <label>Mileage <input name="mileage" type="number" min="0" required /></label>
           <label>Price (USD) <input name="price" type="number" min="0" required /></label>
+          <label>ZIP Code <input name="zip_code" /></label>
+          <label>Accidents <input name="accidents_count" type="number" min="0" max="20" value="0" /></label>
+          <label>Owners <input name="owners_count" type="number" min="1" max="15" value="1" /></label>
+          <label>Condition (1-5) <input name="condition" type="number" min="1" max="5" value="3" required /></label>
         </div>
         <button type="submit">Evaluate Deal</button>
       </form>
